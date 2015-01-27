@@ -1,4 +1,4 @@
-curl -O https://github.com/cdorros/scripts/raw/master/ghost/ghosttest.sh -k &>/dev/null
+curl -O https://raw.githubusercontent.com/cdorros/scripts/master/ghost/ghosttest.sh -k &>/dev/null
 chmod +x ghosttest.sh
 ./ghosttest.sh
 rm ghosttest.sh
