@@ -4,7 +4,7 @@
 # exploit code taken from: https://gist.github.com/koelling/ef9b2b9d0be6d6dbab63
 
 cd /tmp
-curl -O https://github.com/cdorros/scripts/raw/master/ghost/ghosttest.c -k &>/dev/null
+curl -O https://raw.githubusercontent.com/cdorros/scripts/master/ghost/ghosttest.c -k &>/dev/null
 gcc ghosttest.c -o ghosttest
 chmod +x ghosttest
 ./ghosttest
